@@ -1,8 +1,10 @@
 #!/bin/bash
 
 #Install NodeJS
+sudo apt-get install curl;
+
 sudo apt-get install -y build-essential;
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -;
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -;
 sudo apt-get install -y nodejs;
 
 #Install MongoDB
